@@ -13,10 +13,11 @@ So at first it can be something related to browser cookies but obviously it wasn
 We can't do anything with the webpage as it doesn't contain any input field or any button.  
 So I just captured the request in the burpsuite as it was single hope for me.  
 In the captured request we can find look-here=cookie.php  
+![look-here=cookie.php](https://github.com/janki2709/xctf.org.cn/blob/master/Exercise/Web/cookie/cookie.png)  
 So I simply opened cookie.php  
 Then I got webpage stated that check the response. So again I captured that request send it to repeater and checked the response.  
 I got the flag in the response.  
-![notice that button is disabled](https://github.com/janki2709/xctf.org.cn/blob/master/Exercise/Web/disabled_button/disabled_button.png)  
+![flag in the response](https://github.com/janki2709/xctf.org.cn/blob/master/Exercise/Web/cookie/cookie1.png)
 
 ## Flag
 cyberpeace{604d2c1eacdf2ec2ef3ecae26464fdc1}
