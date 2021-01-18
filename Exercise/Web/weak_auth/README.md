@@ -19,12 +19,14 @@ I immediately found this wordlist
 https://github.com/fuzzdb-project/fuzzdb/blob/master/wordlists-user-passwd/passwds/john.txt   
 I tried this wordlist with burpsuite.  
 Capture request in the burpsuite, then send it to intruder.  
+!(https://github.com/janki2709/xctf.org.cn/blob/master/Exercise/Web/weak_auth/weak_auth.png)
 Go to position->clear. Then click on passsword->add.  
 Go to payloads and Select the payload and start attack.  
 After finishing attack, check response(click on response)  
 Check response of every single payload.  
 I got flag at 5th payload only.   
 Password is 123456  
+!(https://github.com/janki2709/xctf.org.cn/blob/master/Exercise/Web/weak_auth/weak_auth1.png)
 
 ## Flag
 cyberpeace{26c25f5a7d279bac6c991d896bc7429d}
