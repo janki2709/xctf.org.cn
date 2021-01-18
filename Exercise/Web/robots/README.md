@@ -9,7 +9,7 @@ Teacher X talked about the Robots protocol in class, but Xiao Ning fell asleep d
 
 ## Solution
 First I opened challenge link and got nothing written there.  
-So right click->Inspect, but there also I got <!--flag is not here-->  
+So right click->Inspect, but there also I got flag is not here
 So I got no hint.  
 But from the description I thought there should be something related to robots.  
 So I tried to append robots.html , robots.php , robots.txt to the URL.  
